@@ -27,7 +27,6 @@ elif a*a > b*b + c*c:
     print("TRIANGULO OBTUSANGULO")
 
 elif a*a < b*b + c*c:
-    print(a)
     print("TRIANGULO ACUTANGULO")
 
 if a == b == c:
