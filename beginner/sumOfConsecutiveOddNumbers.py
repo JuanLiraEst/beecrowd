@@ -14,7 +14,6 @@ sum = 0
 
 for i in range(menor+1,maior):
     if i%2!=0:
-        print(i)
         sum = sum + i
 
 print(sum)
