@@ -23,5 +23,3 @@ if b+c > a:
 else:
     area = (a+b)*c/2
     print("Area = %.1f"%area)
-
-print(numeros)
