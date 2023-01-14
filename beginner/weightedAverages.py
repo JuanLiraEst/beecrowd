@@ -11,4 +11,4 @@ for x in range(n):
     averages.append(med)
 
 for x in range(n):
-    print(averages[x])
+    print("%.1f"%averages[x])

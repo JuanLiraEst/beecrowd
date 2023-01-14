@@ -6,6 +6,7 @@ for x in range(100):
     ordenado.append(n)
 
 ordenado.sort()
+print(ordenado[99])
 
 for x in range(100):
     if numeros[x] == ordenado[99]:

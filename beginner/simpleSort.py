@@ -14,7 +14,7 @@ ordenados.sort()
 
 for x in range(3):
     print(ordenados[x])
-print(" ")
+print("")
 print(a)
 print(b)
 print(c)
