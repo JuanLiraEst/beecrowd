@@ -2,7 +2,8 @@ gremio = 0
 inter = 0
 empate = 0
 grenais = 0
-def placar(inter,gremio,empate,grenais):
+
+while True:
     l = input()
     v = l.split(" ")
     i = v[0] #inter
@@ -16,23 +17,19 @@ def placar(inter,gremio,empate,grenais):
         empate+=1
     grenais+=1
 
-def resultados():
-    print("%d grenais"%grenais)
-    print("Inter:%d"%inter)
-    print("Gremio:%d"%gremio)
-    
+    print("Novo grenal (1-sim 2-nao)")
+    resp = int(input())
+    if resp == 1:
+        continue
 
-
-def main():
-    while True:
-        placar(inter,gremio,empate,grenais)
-        print("Novo grenal (1-sim 2-nao)")
-        resp = int(input())
-        if resp == 1:
-            placar(inter,gremio,empate,grenais)
-
-        elif resp == 2:
-            resultados()
-            break
-
-main()
+    elif resp == 2:
+        print("%d grenais"%grenais)
+        print("Inter:%d"%inter)
+        print("Gremio:%d"%gremio)
+        print("Empates:%d"%empate)
+        
+        if inter>gremio:
+            print("Inter venceu mais")
+        if gremio>inter:
+            print("Gremio venceu mais")
+        break
