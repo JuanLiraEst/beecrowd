@@ -17,16 +17,16 @@ while True:
         break
 
     if x>0 and y>0:
-        quadrantes.append("Primeiro")
+        quadrantes.append("primeiro")
 
     if x>0 and y<0:
-        quadrantes.append("Quarto")
+        quadrantes.append("quarto")
 
     if x<0 and y<0:
-        quadrantes.append("Terceiro")
+        quadrantes.append("terceiro")
 
     if x<0 and y>0:
-        quadrantes.append("Segundo")
+        quadrantes.append("segundo")
 
 for z in range(len(quadrantes)):
     print(quadrantes[z])

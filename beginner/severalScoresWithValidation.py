@@ -18,7 +18,8 @@ def calculaMedia():
 
 def reinicia():
     while True:
-        novo = int(input("novo calculo (1-sim 2-nao)"))
+        print("novo calculo (1-sim 2-nao)")
+        novo = int(input())
         if novo == 1:
             calculaMedia()
 

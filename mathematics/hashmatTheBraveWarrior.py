@@ -10,7 +10,6 @@ while True:
         dif = abs(a-b)
         print(dif)
 
-        
-
+    
     except EOFError:
         break       

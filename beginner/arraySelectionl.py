@@ -1,4 +1,4 @@
-for x in range(5):
+for x in range(100):
     n = input()
     out = float(n)
     if out<=10:

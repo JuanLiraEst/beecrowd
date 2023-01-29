@@ -20,4 +20,5 @@ for i in range(n):
             soma = soma + j
     somas.append(soma)
 
-print(somas)
+for z in range(n):
+    print(somas[z])
